@@ -13,9 +13,33 @@
         android:theme="@style/Theme.HealthCare"
         tools:targetApi="31">
         <activity
-            android:name=".RegisterActivity"
+            android:name=".LabTestBookActivity"
             android:exported="false" />
-        <!-- <activity -->
+        <activity
+            android:name=".CartLabActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LabTestDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LabTestActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BookAppointmentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DoctorDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FindDoctorActivity"
+            android:exported="false"
+            android:theme="@style/Theme.HealthCare" />
+        <activity
+            android:name=".HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false" /> <!-- <activity -->
         <!-- android:name=".LoginActivity" -->
         <!-- android:exported="false" /> -->
         <activity
